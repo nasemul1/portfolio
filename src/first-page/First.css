@@ -98,3 +98,44 @@
 .main-image:hover .img-back-box{
     transform: translate(4px, 4px);
 }
+
+@media only screen and (max-width: 900px){
+    .main-area{
+        height: 80vh;
+        height: 80dvh;
+        padding: 5em 80px 0 80px;
+        grid-template-rows: 1fr 1fr;
+    }
+    .main-area .main-text{
+        grid-column: 1/ span 5;
+        grid-row-start: 2;
+    }
+    .main-area .main-image{
+        grid-column: 1/ span 5;
+    }
+    .main-image .img-box #front-img{
+        width: 250px;
+    }
+    
+    .main-image .img-back-box{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-area{
+        height: 100vh;
+        height: 100dvh;
+        padding: 4em 50px;
+    }
+    .main-image .img-box #front-img{
+        width: 180px;
+    }
+    
+    .main-image .img-back-box{
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+    }
+}
