@@ -17,23 +17,28 @@
 .main-text .hi-text{
     font-size: 18px;
     padding-bottom: 5px;
+    font-family: 'Poppins';
 }
 
 .main-text h2{
     font-size: clamp(26px, 4vw, 46px);
+    font-family: 'Poppins';
 }
 
 .main-text h3{
     font-size: clamp(20px, 3vw, 36px);
+    font-family: 'Poppins';
 }
 
 .main-text h3 span{
     color: #8CC152;
+    font-family: 'Poppins';
 }
 
 .main-text .bio{
     padding-top: 30px;
     font-size: 14px;
+    font-family: 'Poppins';
 }
 
 .hireMe-div{

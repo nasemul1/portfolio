@@ -1,0 +1,41 @@
+#about{
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #1B1F22;
+    display: flex;
+    flex-direction: column;
+}
+
+#ab-head{
+    margin: 0 auto 40px auto;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: gray;
+    border: none;
+    border-radius: 16px;
+}
+
+#about-inner{
+    width: 100%;
+}
+
+#about-inner>img{
+    width: 30%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.floating { 
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
