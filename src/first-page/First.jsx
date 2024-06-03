@@ -16,7 +16,7 @@ const First = () => {
                     <h3>I am a <span>{ text }</span>
                         <Cursor cursorColor='#8CC152' />
                     </h3>
-                    <p className="bio">Highly motivated aspiring front-end developer with a strong grasp of HTML, CSS, and JavaScript seeks an entry-level position to leverage skills and contribute to a dynamic team.</p>
+                    <p className="bio">Highly motivated aspiring front-end developer with a strong grasp of HTML, CSS, JavaScript and React JS. Like to build visually apealling and responsive websites.</p>
                     <div className="hireMe-div">
                         <div className="hireMe-box">
                             <a href="#contact">Hire Me</a>

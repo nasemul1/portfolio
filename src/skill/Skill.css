@@ -25,11 +25,32 @@
 
 #logos{
     padding: 50px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 #logos>img{
     width: 45px;
+    height: fit-content;
     justify-self: center;
+    transition: all 0.5s ease-in-out;
+}
+#logos>img:hover{
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 900px){
+    #skill{
+        padding: 50px 80px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #skill{
+        padding: 50px 30px;
+    }
+    #logos>img{
+        width: 35px;
+    }
 }

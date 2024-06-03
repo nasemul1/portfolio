@@ -1,6 +1,7 @@
 nav{
     width: 100%;
     padding: 20px 60px;
+    background-color: rgba( 33, 37, 41, 0.4);
     backdrop-filter: blur(8px);
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@ nav{
 #nav-links>a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 13.5px;
     margin-right: 20px;
 }
 #nav-links>a:hover{
@@ -94,6 +95,7 @@ nav{
         display: flex;
         align-items: center;
         padding: 1em 2em;
+        background-color: rgba( 33, 37, 41, 0.6);
         backdrop-filter: blur(3px);
         z-index: -3;
     }
@@ -105,7 +107,8 @@ nav{
     }
     .nav-overlay{
         position: fixed;
-        background-color: brown;
+        background-color: rgba( 33, 37, 41, 0.6);
+        backdrop-filter: blur(8px);
         z-index: -2;
         top: -100%;
         right: 0;
@@ -168,6 +171,8 @@ nav{
         font-size: 14px;
         margin-right: 0;
         margin-top: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #8CC152;
     }
     .nav-overlay>a:hover{
         color: #8CC152;
