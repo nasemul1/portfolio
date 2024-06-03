@@ -14,7 +14,7 @@ const About = () => {
                     <ul>
                         <li>Doing B.Sc. in Computer Science</li>
                         <li>Avid learner</li>
-                        <li>Like ot learn new web technologies</li>
+                        <li>Like to learn new web technologies</li>
                         <li>Love programming</li>
                     </ul>
                 </div>

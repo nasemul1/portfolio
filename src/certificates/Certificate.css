@@ -1,25 +1,24 @@
-#work-sec{
+#certificate{
     width: 100%;
     padding: 50px 100px;
-    background-color: #1B1F22;
+    background-color: #212529;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-#work-sec>p{
+#certificate>p{
     color: #ededed;
-    text-align: center;
     font-size: 15px;
     font-family: 'Poppins';
 }
 
-#works-container{
-    margin: 25px 0;
+#certificate-container{
+    width: 100%;
 }
-
-.work{
-    margin-bottom: 20px;
+.certi{
+    margin: 20px 0;
     padding: 30px;
     background-color: #32383D;
     border: none;
@@ -27,62 +26,54 @@
     display: flex;
     column-gap: 40px;
 }
-
-#works-container>.even{
-    display: flex;
+#certificate-container .even{
     flex-direction: row-reverse;
 }
-
-.work-img{
-    width: 50%;
+.certi-img{
+    width: 40%;
     display: flex;
     align-items: center;
 }
-.work-img>img{
+.certi-img>img{
     width: 100%;
-    height: auto;
-    border: none;
-    border-radius: 10px;
 }
-.work-descrip{
+.certi-descrip{
+    width: 60%;
     color: #ededed;
-    width: 50%;
 }
-.work-descrip>h2, .work-descrip>p, .work-descrip span{
+.certi-descrip>h2, .certi-descrip>p, .certi-descrip>span{
     font-family: 'Poppins';
 }
-.work-descrip>h2{
-    margin-bottom: 15px;
+.certi-descrip>h2{
     color: #8CC152;
+    margin-bottom: 10px;
 }
-.work-descrip>p{
+.certi-descrip>p{
     font-size: 14px;
     margin-bottom: 10px;
 }
-
-.work-tag{
-    margin-bottom: 25px;
+.certi-tag{
     display: flex;
     flex-wrap: wrap;
 }
-.work-descrip span{
-    font-size: 14px;
-    margin-top: 10px;
+.certi-tag>span{
     padding: 5px 15px;
-    margin-right: 10px;
-    background-color: #484f54;
     border: none;
     border-radius: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    background-color: #484F54;
 }
-
-.work-btn{
-    margin-right: 15px;
+.certi-btn{
+    margin-top: 20px;
     border-radius: 6px;
     background-color: #8CC152;
     display: inline-block;
 }
 
-.work-btn .work-btn-box{
+.certi-btn .certi-btn-box{
     border: 2px solid #8CC152;
     background-color: #32383D;
     border-radius: 6px;
@@ -91,11 +82,11 @@
     transition: transform 250ms ease-in-out;
 }
 
-.work-btn .work-btn-box:hover{
+.certi-btn .certi-btn-box:hover{
     transform: translate(-4px, -4px);
 }
 
-.work-btn .work-btn-box a{
+.certi-btn .certi-btn-box a{
     font-family: 'Poppins';
     padding: 5px 15px;
     text-decoration: none;
@@ -103,34 +94,30 @@
 }
 
 @media only screen and (max-width: 900px){
-    #work-sec{
+    #certificate{
+        width: 100%;
         padding: 50px 80px;
     }
-    .work{
+    .certi{
         display: flex;
         flex-direction: column;
         column-gap: 0;
         row-gap: 20px;
     }
-    #works-container>.even{
-        display: flex;
+    #certificate-container .even{
         flex-direction: column;
     }
-    .work-img{
+    .certi-img{
         width: 100%;
-        display: flex;
-        align-items: center;
     }
-    .work-descrip{
+    .certi-descrip{
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 600px){
-    #work-sec{
+    #certificate{
+        width: 100%;
         padding: 50px 30px;
-    }
-    .work{
-        padding: 30px;
     }
 }

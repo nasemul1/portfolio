@@ -8,6 +8,8 @@ import bootstrap from '../assets/logos/bootstrap.png';
 import figma from '../assets/logos/Figma.png';
 import react from '../assets/logos/react.png';
 import next from '../assets/logos/next.png';
+import git from '../assets/logos/git.png';
+import github from '../assets/logos/github.png';
 
 const Skill = () => {
     return (
@@ -22,6 +24,8 @@ const Skill = () => {
                 <img src={react} alt="react js logo" />
                 <img src={next} alt="next js logo" />
                 <img src={figma} alt="figma logo" />
+                <img src={git} alt="git logo" />
+                <img src={github} alt="github logo" />
                 <img src={c} alt="c logo" />
                 <img src={cpp} alt="cpp logo" />
             </div>

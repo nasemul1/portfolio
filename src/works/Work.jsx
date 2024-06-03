@@ -2,7 +2,6 @@ import './Work.css';
 import land from '../assets/works/team-flow.png';
 import blog from '../assets/works/nasemul-blog.png';
 import anim from '../assets/works/3d-animated-page.png';
-import toDo from '../assets/works/to-do.png';
 
 const Work = () => {
     return (
@@ -40,7 +39,7 @@ const Work = () => {
                         <h2>Blog page</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
                         <div className='work-tag'>
-                            <span>React JS</span><span>JSON Server</span><span>CSS</span><span>Javascript</span><span>Responsive site</span>
+                            <span>React JS</span><span>JSON Server</span><span>API</span><span>CSS</span><span>Javascript</span><span>Responsive site</span>
                         </div>
                         <div className="work-btn">
                             <div className="work-btn-box">
