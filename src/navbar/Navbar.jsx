@@ -12,21 +12,21 @@ const Navbar = () => {
         <>
             <nav>
                 <div id="logo">
-                    <div id="logo-front">N</div>
+                    <div id="logo-front"><a href="#">N</a></div>
                 </div>
                 <div id="nav-links">
                     <a href="#about"><span>01.</span>About</a>
                     <a href="#skill"><span>02.</span>Skills</a>
-                    <a href="#work"><span>03.</span>Works</a>
-                    <a href="#certification"><span>04.</span>Certificates</a>
+                    <a href="#work-sec"><span>03.</span>Works</a>
+                    <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="nav-btn"><div id='btn'>Download CV</div></div>
+                    <div id="nav-btn"><div id='btn'><a href="https://drive.google.com/file/d/1B-1j_iwCKUt5K61nW1E1G7T93tMuhV_4/view" target='_blank'>Resume</a></div></div>
                 </div>
             </nav>
             <div id="mobile-nav">
                 <div id="navbar">
                     <div id="logo">
-                        <div id="logo-front">N</div>
+                        <div id="logo-front"><a href="#">N</a></div>
                     </div>
                 </div>
                 <div id="menu-toggle" onClick={() => handleClick()}>
@@ -38,10 +38,10 @@ const Navbar = () => {
                 <div className={navOpen ? "nav-overlay open" : "nav-overlay"}>
                     <a href="#about"><span>01.</span>About</a>
                     <a href="#skill"><span>02.</span>Skills</a>
-                    <a href="#work"><span>03.</span>Works</a>
-                    <a href="#certification"><span>04.</span>Certificates</a>
+                    <a href="#work-sec"><span>03.</span>Works</a>
+                    <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="mbl-nav-btn"><div id='mbl-btn'>Download CV</div></div>
+                    <div id="mbl-nav-btn"><div id='mbl-btn'><a href="https://drive.google.com/file/d/1B-1j_iwCKUt5K61nW1E1G7T93tMuhV_4/view">Resume</a></div></div>
                 </div>
             </div>
         </>
