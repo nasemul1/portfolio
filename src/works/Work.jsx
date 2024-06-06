@@ -18,7 +18,7 @@ const Work = () => {
             <div id="works-container">
                 <div className="work">
                     <div className="work-img">
-                        <img src={land} alt="team flow landing page" loading='lazy'/>
+                        <img src={land} alt="team flow landing page"/>
                     </div>
                     <div className="work-descrip">
                         <h2>Team.flow page</h2>
@@ -40,7 +40,7 @@ const Work = () => {
                 </div>
                 <div className="work even">
                     <div className="work-img">
-                        <img src={blog} alt="blog page" loading='lazy'/>
+                        <img src={blog} alt="blog page"/>
                     </div>
                     <div className="work-descrip">
                         <h2>Blog page</h2>
@@ -62,7 +62,7 @@ const Work = () => {
                 </div>
                 <div className="work">
                     <div className="work-img">
-                        <img src={anim} alt="Animated page" loading='lazy'/>
+                        <img src={anim} alt="Animated page" />
                     </div>
                     <div className="work-descrip">
                         <h2>Animated page</h2>
@@ -84,7 +84,7 @@ const Work = () => {
                 </div>
                 <div className={`work ${seeMore}`}>
                     <div className="work-img">
-                        <img src={toDo} alt="To do app" loading='lazy'/>
+                        <img src={toDo} alt="To do app"/>
                     </div>
                     <div className="work-descrip">
                         <h2>To-do App</h2>

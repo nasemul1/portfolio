@@ -11,7 +11,7 @@ const Certificate = () => {
             <div id="certificate-container">
                 <div className="certi">
                     <div className="certi-img">
-                        <img src={responsive} alt="freecodecamp certificate" loading='lazy'/>
+                        <img src={responsive} alt="freecodecamp certificate"/>
                     </div>
                     <div className="certi-descrip">
                         <h2>Freecodecamp responsive webdesign certificate</h2>
@@ -28,7 +28,7 @@ const Certificate = () => {
                 </div>
                 <div className="certi even">
                     <div className="certi-img">
-                        <img src={internet} alt="internet fundamentals certificate" loading='lazy'/>
+                        <img src={internet} alt="internet fundamentals certificate" />
                     </div>
                     <div className="certi-descrip">
                         <h2>Basics of web certificate</h2>
@@ -45,7 +45,7 @@ const Certificate = () => {
                 </div>
                 <div className="certi">
                     <div className="certi-img">
-                        <img src={icpc} alt="freecodecamp certificate" loading='lazy'/>
+                        <img src={icpc} alt="freecodecamp certificate" />
                     </div>
                     <div className="certi-descrip">
                         <h2>ICPC Regional - 2023 participation certificate</h2>
