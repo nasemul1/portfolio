@@ -2,8 +2,15 @@ import './Work.css';
 import land from '../assets/works/team-flow.png';
 import blog from '../assets/works/nasemul-blog.png';
 import anim from '../assets/works/3d-animated-page.png';
+import toDo from '../assets/works/to-do.png';
+import { useState } from 'react';
 
 const Work = () => {
+    const [seeMore, setSeeMore] = useState(true);
+
+    function handleClick(){
+        setSeeMore(!seeMore);
+    }
     return (
         <div id="work-sec">
             <div id="skill-head">Works</div>
@@ -75,6 +82,29 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                <div className={`work ${seeMore}`}>
+                    <div className="work-img">
+                        <img src={toDo} alt="To do app" />
+                    </div>
+                    <div className="work-descrip">
+                        <h2>To-do App</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <div className='work-tag'>
+                            <span>HTML</span><span>CSS</span><span>Javascript</span>
+                        </div>
+                        <div className="work-btn">
+                            <div className="work-btn-box">
+                                <a href="https://nasemul1.github.io/3d-animated-page/" target='_blank'>Visit</a>
+                            </div>
+                        </div>
+                        <div className="work-btn">
+                            <div className="work-btn-box">
+                                <a href="https://github.com/nasemul1/3d-animated-page" target='_blank'>code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id='seeMore' onClick={() => handleClick()}>See <span class={`${!seeMore}`}>More</span><span class={`${seeMore}`}>Less</span></button>
             </div>
         </div>
     );
