@@ -15,7 +15,7 @@ const Certificate = () => {
                     </div>
                     <div className="certi-descrip">
                         <h2>Freecodecamp responsive webdesign certificate</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>In this Responsive Web Design Certification, I learned the languages that developers use to build webpages: HTML for content, and CSS for design. Builds lots of basic projects which helped me to learn a lot about responsive design</p>
                         <div className='certi-tag'>
                             <span>HTML</span><span>CSS</span><span>Responsiveness</span>
                         </div>
@@ -32,7 +32,7 @@ const Certificate = () => {
                     </div>
                     <div className="certi-descrip">
                         <h2>Basics of web certificate</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>This course is designed to equip aspiring backend developers with essential web knowledge, focusing on practical and foundational aspects of web functionality. It avoids complex hardware details and the OSI model to directly address what's crucial for your development career.</p>
                         <div className='certi-tag'>
                             <span>Domain</span><span>DNS</span><span>HTTP</span>
                         </div>
@@ -49,7 +49,7 @@ const Certificate = () => {
                     </div>
                     <div className="certi-descrip">
                         <h2>ICPC Regional - 2023 participation certificate</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>Certificate for perticipating on ICPC (International Collegiate Programming Contest) 2023. Gained lots of experience on programming, teamwork, time management and lot more.</p>
                         <div className='certi-tag'>
                             <span>C++</span><span>DSA</span>
                         </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a href="#work-sec"><span>03.</span>Works</a>
                     <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="nav-btn"><div id='btn'><a href="https://drive.google.com/file/d/1R_tSHpsqyXc417OXKqoD1LousAo6qF3y/view?usp=sharing" target='_blank'>Resume</a></div></div>
+                    <div id="nav-btn"><div id='btn'><a href="https://drive.google.com/file/d/1py4TEuPjDXXPpSZ5qMsH5qwNPqR-HiCZ/view?usp=sharing" target='_blank'>Resume</a></div></div>
                 </div>
             </nav>
             <div id="mobile-nav">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     <a href="#work-sec"><span>03.</span>Works</a>
                     <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="mbl-nav-btn"><div id='mbl-btn'><a href="https://drive.google.com/file/d/1R_tSHpsqyXc417OXKqoD1LousAo6qF3y/view?usp=sharing">Resume</a></div></div>
+                    <div id="mbl-nav-btn"><div id='mbl-btn'><a href="https://drive.google.com/file/d/1py4TEuPjDXXPpSZ5qMsH5qwNPqR-HiCZ/view?usp=sharing">Resume</a></div></div>
                 </div>
             </div>
         </>

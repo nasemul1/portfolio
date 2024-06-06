@@ -22,7 +22,7 @@ const Work = () => {
                     </div>
                     <div className="work-descrip">
                         <h2>Team.flow page</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>Took a template from figma and tried to implement the design using next js and css. It is a responsive design which support all types device width.</p>
                         <div className='work-tag'>
                             <span>Next JS</span><span>CSS</span><span>Javascript</span><span>Responsive site</span>
                         </div>
@@ -44,7 +44,7 @@ const Work = () => {
                     </div>
                     <div className="work-descrip">
                         <h2>Blog page</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>It is a blog website. Built using react js, Javascript, css and json server. Build a simple json server to store blog which is hosted on render. Reac JS is used to design the website and fetch data from server. React Router is used to navigate from on page to another.</p>
                         <div className='work-tag'>
                             <span>React JS</span><span>JSON Server</span><span>API</span><span>CSS</span><span>Javascript</span><span>Responsive site</span>
                         </div>
@@ -66,7 +66,7 @@ const Work = () => {
                     </div>
                     <div className="work-descrip">
                         <h2>Animated page</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>It is a 3d animated website built using html, css, Javascript and GSAP. Lots of images are combined together to created animation effects.</p>
                         <div className='work-tag'>
                             <span>HTML</span><span>CSS</span><span>Javascript</span><span>GSAP</span>
                         </div>
@@ -88,18 +88,18 @@ const Work = () => {
                     </div>
                     <div className="work-descrip">
                         <h2>To-do App</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt distinctio cumque esse. Impedit maxime facere excepturi laudantium mollitia nemo.</p>
+                        <p>It is a to-do app built using html, css, Javascript. It stores data in browser local storage which give ability retain all the data if page refreshed or reopened.</p>
                         <div className='work-tag'>
                             <span>HTML</span><span>CSS</span><span>Javascript</span>
                         </div>
                         <div className="work-btn">
                             <div className="work-btn-box">
-                                <a href="https://nasemul1.github.io/3d-animated-page/" target='_blank'>Visit</a>
+                                <a href="https://nasemul1.github.io/to-do-list/" target='_blank'>Visit</a>
                             </div>
                         </div>
                         <div className="work-btn">
                             <div className="work-btn-box">
-                                <a href="https://github.com/nasemul1/3d-animated-page" target='_blank'>code</a>
+                                <a href="https://github.com/nasemul1/to-do-list" target='_blank'>code</a>
                             </div>
                         </div>
                     </div>
