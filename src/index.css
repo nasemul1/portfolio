@@ -10,4 +10,5 @@ html, body{
   background-color: #212529;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  overflow-x: hidden;
 }
