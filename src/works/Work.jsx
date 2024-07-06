@@ -16,7 +16,7 @@ const Work = () => {
             <div id="skill-head">Works</div>
             <p>Some of the noteworthy projects that I built: </p>
             <div id="works-container">
-                <div className="work">
+                <div className="work" data-aos="fade-left" data-aos-duration="800">
                     <div className="work-img">
                         <img src={land} alt="team flow landing page"/>
                     </div>
@@ -38,7 +38,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className="work even">
+                <div className="work even" data-aos="fade-right" data-aos-duration="800">
                     <div className="work-img">
                         <img src={blog} alt="blog page"/>
                     </div>
@@ -60,7 +60,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className="work">
+                <div className="work" data-aos="fade-left" data-aos-duration="800">
                     <div className="work-img">
                         <img src={anim} alt="Animated page" />
                     </div>

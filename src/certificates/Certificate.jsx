@@ -9,7 +9,7 @@ const Certificate = () => {
             <div id="skill-head">Certificates</div>
             <p>Here are some certificates I gained through many courses:</p>
             <div id="certificate-container">
-                <div className="certi">
+                <div className="certi" data-aos="fade-left" data-aos-duration="800">
                     <div className="certi-img">
                         <img src={responsive} alt="freecodecamp certificate"/>
                     </div>
@@ -26,7 +26,7 @@ const Certificate = () => {
                         </div>
                     </div>
                 </div>
-                <div className="certi even">
+                <div className="certi even" data-aos="fade-right" data-aos-duration="800">
                     <div className="certi-img">
                         <img src={internet} alt="internet fundamentals certificate" />
                     </div>
@@ -43,7 +43,7 @@ const Certificate = () => {
                         </div>
                     </div>
                 </div>
-                <div className="certi">
+                <div className="certi" data-aos="fade-left" data-aos-duration="800">
                     <div className="certi-img">
                         <img src={icpc} alt="freecodecamp certificate" />
                     </div>

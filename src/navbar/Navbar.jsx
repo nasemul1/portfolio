@@ -41,7 +41,7 @@ const Navbar = () => {
                     <a href="#work-sec"><span>03.</span>Works</a>
                     <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="mbl-nav-btn"><div id='mbl-btn'><a href="https://drive.google.com/file/d/1py4TEuPjDXXPpSZ5qMsH5qwNPqR-HiCZ/view?usp=sharing">Resume</a></div></div>
+                    <div id="mbl-nav-btn"><div id='mbl-btn'><a href="https://drive.google.com/file/d/117B65A1xUsctwfTW5hwd9fUGECmNYoy8/view?usp=sharing">Resume</a></div></div>
                 </div>
             </div>
         </>
