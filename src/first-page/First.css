@@ -144,3 +144,15 @@
         border-radius: 20px;
     }
 }
+
+@media only screen and (max-width: 400px), (max-height: 650px){
+    .main-image .img-box #front-img{
+        width: 150px;
+    }
+    
+    .main-image .img-back-box{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+}
