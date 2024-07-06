@@ -1,8 +1,8 @@
 import './Work.css';
-import land from '../assets/works/team-flow.png';
-import blog from '../assets/works/nasemul-blog.png';
-import anim from '../assets/works/3d-animated-page.png';
-import toDo from '../assets/works/to-do.png';
+import land from '../assets/works/team-flow.webp';
+import blog from '../assets/works/nasemul-blog.webp';
+import anim from '../assets/works/3d-animated-page.webp';
+import toDo from '../assets/works/to-do.webp';
 import { useState } from 'react';
 
 const Work = () => {

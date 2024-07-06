@@ -1,7 +1,7 @@
 import './Certificate.css';
-import responsive from '../assets/certificate/freecodecamp.png';
-import internet from '../assets/certificate/internet.jpg';
-import icpc from '../assets/certificate/icpc.png';
+import responsive from '../assets/certificate/freecodecamp.webp';
+import internet from '../assets/certificate/internet.webp';
+import icpc from '../assets/certificate/icpc.webp';
 
 const Certificate = () => {
     return (

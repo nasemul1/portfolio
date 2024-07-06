@@ -1,15 +1,15 @@
 import './Skill.css';
-import html from '../assets/logos/html-5.png';
-import css from '../assets/logos/css-3.png';
-import javascript from '../assets/logos/js.png';
-import c from '../assets/logos/c.png';
-import cpp from '../assets/logos/c++.png';
-import bootstrap from '../assets/logos/bootstrap.png';
-import figma from '../assets/logos/Figma.png';
-import react from '../assets/logos/react.png';
-import next from '../assets/logos/next.png';
-import git from '../assets/logos/git.png';
-import github from '../assets/logos/github.png';
+import html from '../assets/logos/html-5.webp';
+import css from '../assets/logos/css-3.webp';
+import javascript from '../assets/logos/js.webp';
+import c from '../assets/logos/c.webp';
+import cpp from '../assets/logos/c++.webp';
+import bootstrap from '../assets/logos/bootstrap.webp';
+import figma from '../assets/logos/Figma.webp';
+import react from '../assets/logos/react.webp';
+import next from '../assets/logos/next.webp';
+import git from '../assets/logos/git.webp';
+import github from '../assets/logos/github.webp';
 
 const Skill = () => {
     return (
