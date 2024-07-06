@@ -1,5 +1,5 @@
 import './About.css';
-import image from '../assets/cuet-pic.jpeg';
+import image from '../assets/cuet-pic.webp';
 
 const About = () => {
     return (
@@ -22,5 +22,4 @@ const About = () => {
         </div>
     );
 }
- 
 export default About;

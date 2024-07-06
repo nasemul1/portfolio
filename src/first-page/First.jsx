@@ -1,6 +1,6 @@
 import './First.css';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import image from '../assets/profile-pic(2).png';
+import image from '../assets/profile-pic(2).webp';
 
 const First = () => {
     const [text] = useTypewriter({
