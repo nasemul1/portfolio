@@ -10,7 +10,7 @@ const First = () => {
     return (
         <>
             <div className="main-area">
-                <div className="main-text" data-aos="fade-right" data-aos-duration="800">
+                <div className="main-text">
                     <p className="hi-text">Hi, I am</p>
                     <h2 id="name">Md Nasemul Islam</h2>
                     <h3>I am a <span>{ text }</span>
