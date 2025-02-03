@@ -110,7 +110,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`work ${seeMore}`}>
+                {/* <div className={`work ${seeMore}`}>
                     <div className="work-img">
                         <img src={toDo} alt="To do app"/>
                     </div>
@@ -131,7 +131,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <button id='seeMore' onClick={() => handleClick()}>See <span class={`${!seeMore}`}>More</span><span class={`${seeMore}`}>Less</span></button>
             </div>
         </div>
