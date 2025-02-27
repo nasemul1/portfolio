@@ -12,6 +12,8 @@ import git from '../assets/logos/git.webp';
 import github from '../assets/logos/github.webp';
 import tailwind from '../assets/logos/TailwindCSS.webp';
 import vue from '../assets/logos/vue.webp';
+import node from '../assets/logos/node.png';
+import express from '../assets/logos/express.png';
 
 const Skill = () => {
     return (
@@ -27,6 +29,8 @@ const Skill = () => {
                 <img src={next} alt="next js logo" />
                 <img src={tailwind} alt="tailwind css logo" />
                 <img src={vue} alt="Vue Js logo" />
+                <img src={express} alt="Express Js logo" />
+                <img src={node} alt="Node Js logo" />
                 <img src={figma} alt="figma logo" />
                 <img src={git} alt="git logo" />
                 <img src={github} alt="github logo" />

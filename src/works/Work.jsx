@@ -4,6 +4,7 @@ import blog from '../assets/works/nasemul-blog.webp';
 import anim from '../assets/works/3d-animated-page.webp';
 import toDo from '../assets/works/to-do.webp';
 import jobPage from '../assets/works/job_page.webp';
+import ecom from '../assets/works/Style-O-clock.png'
 import { useState } from 'react';
 
 const Work = () => {
@@ -18,6 +19,33 @@ const Work = () => {
             <p>Some of the noteworthy projects that I built: </p>
             <div id="works-container">
                 <div className="work" data-aos="fade-left" data-aos-duration="800">
+                    <div className="work-img">
+                        <img src={ecom} alt="Ecom Website"/>
+                    </div>
+                    <div className="work-descrip">
+                        <h2>E-Commerce Website</h2>
+                        <p>This is a fullstack e-commerce website. MERN stack technology is used on this project. Add, delete, placeorder, cart, signin, signup and many more features are added on this project.</p>
+                        <div className='work-tag'>
+                            <span>React JS</span><span>Tailwind CSS</span><span>Javascript</span><span>Responsive site</span><span>Node Js</span><span>mongoDB</span><span>Express Js</span>
+                        </div>
+                        <div className="work-btn">
+                            <div className="work-btn-box">
+                                <a href="https://e-com-front-vercel.vercel.app/" target='_blank'>Visit</a>
+                            </div>
+                        </div>
+                        <div className="work-btn">
+                            <div className="work-btn-box">
+                                <a href="https://github.com/nasemul1/e-com-front" target='_blank'>Front-end code</a>
+                            </div>
+                        </div>
+                        <div className="work-btn">
+                            <div className="work-btn-box">
+                                <a href="https://github.com/nasemul1/e-com_back" target='_blank'>Back-end code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="work even" data-aos="fade-right" data-aos-duration="800">
                     <div className="work-img">
                         <img src={jobPage} alt="team flow landing page"/>
                     </div>
@@ -44,7 +72,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className="work even" data-aos="fade-right" data-aos-duration="800">
+                {/* <div className="work even" data-aos="fade-right" data-aos-duration="800">
                     <div className="work-img">
                         <img src={anim} alt="Animated page" />
                     </div>
@@ -65,7 +93,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="work" data-aos="fade-left" data-aos-duration="800">
                     <div className="work-img">
                         <img src={blog} alt="blog page"/>
