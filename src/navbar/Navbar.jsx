@@ -20,7 +20,7 @@ const Navbar = () => {
                     <a href="#work-sec"><span>03.</span>Works</a>
                     <a href="#certificate"><span>04.</span>Certificates</a>
                     <a href="#contact"><span>05.</span>Contacts</a>
-                    <div id="nav-btn"><div id='btn'><a href="https://drive.google.com/file/d/1t38tOx8ALjBSBvT8O2scry5XKA7v2Fqu/view?usp=sharing" target='_blank'>Resume</a></div></div>
+                    <div id="nav-btn"><div id='btn'><a href="https://drive.google.com/file/d/16z_ditaJO9gzbTiuZ2RRRLPLQh2_gdPi/view?usp=sharing" target='_blank'>Resume</a></div></div>
                 </div>
             </nav>
             <div id="mobile-nav">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div id="menu-toggle" onClick={() => handleClick()}>
-                    <div className={navOpen ? 'hambox hamboxopen':'hambox'}>
+                    <div className={`${navOpen} ? 'hambox hamboxopen':'hambox'`}>
                         <span className={navOpen?'line-top spin':'line-top'}></span>
                         <span className={navOpen?'line-bottom spin':'line-bottom'}></span>
                     </div>
