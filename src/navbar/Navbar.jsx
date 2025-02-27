@@ -30,7 +30,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div id="menu-toggle" onClick={() => handleClick()}>
-                    <div className={`${navOpen} ? 'hambox hamboxopen':'hambox'`}>
+                    <div className={`${navOpen ? 'hambox hamboxopen' : 'hambox'}`}>
                         <span className={navOpen?'line-top spin':'line-top'}></span>
                         <span className={navOpen?'line-bottom spin':'line-bottom'}></span>
                     </div>
