@@ -10,8 +10,8 @@ import Work from './works/Work'
 function App() {
 
   return (
-    <>
-      <Navbar />
+    <div className='front'>
+      {/* <Navbar />
       <First />
       <About />
       <Skill />
@@ -20,8 +20,10 @@ function App() {
       <Contact />
       <footer>
         <p>© 2024 | Coded with ❤️ by Nasemul</p>
-      </footer>
-    </>
+      </footer> */}
+      <p>New version of my portfolio has been released. Please click the below button...</p>
+      <a className='link' href="https://portfolio-v2-beta-jet.vercel.app/">Portfolio v2</a>
+    </div>
   )
 }
 
